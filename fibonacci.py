@@ -1,4 +1,3 @@
-=======
 def fibonacci(n):
     """
     Returns the nth Fibonacci number.
@@ -9,10 +8,7 @@ def fibonacci(n):
     Returns:
     int: The nth Fibonacci number.
     """
-    a, b = 0, 1
-    
-    for _ in range(n):
-        a, b = b, a + b
-    
-    return a
->>>>>>> REPLACE
+if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
