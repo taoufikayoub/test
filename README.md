@@ -1,21 +1,28 @@
 <<<<<<< SEARCH
 # test
 =======
-# Fibonacci Project
+# Fibonacci Calculator and Unit Testing
 
 ## Overview
-This project implements the Fibonacci sequence and provides unit tests to ensure the correctness of the implementation.
+This project contains a Python script to calculate the Fibonacci sequence and unit tests to verify its correctness.
 
-## Directory Structure
-- `fibonacci.py`: Contains the function to compute the Fibonacci sequence.
-- `fibonacci_test.py`: Contains unit tests for the Fibonacci function.
-- `main.py`: Script to run the unit tests.
+## Project Structure
+- **fibonacci.py**: Contains the implementation of the Fibonacci sequence.
+- **fibonacci_test.py**: Contains the unit tests for the Fibonacci sequence.
+- **main.py**: Runs all the unit tests.
 
-## Getting Started
+## Files
+### fibonacci.py
+This file contains the following function:
+- `fibonacci(n)`: Returns the nth Fibonacci number.
 
-### Prerequisites
-- Python 3.x
+### fibonacci_test.py
+This file contains unit tests using the `unittest` framework to verify the correctness of the `fibonacci` function.
 
-### Installation
-1. Clone the repository:
+### main.py
+This file is the entry point to run all unit tests.
+
+## How to Run
+1. Ensure you have Python installed on your machine.
+2. Run the following command to execute the unit tests:
    
