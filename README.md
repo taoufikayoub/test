@@ -3,15 +3,19 @@
 =======
 # Fibonacci Project
 
-This project contains a function to calculate Fibonacci numbers.
+## Overview
+This project implements the Fibonacci sequence and provides unit tests to ensure the correctness of the implementation.
 
-## Contents
+## Directory Structure
+- `fibonacci.py`: Contains the function to compute the Fibonacci sequence.
+- `fibonacci_test.py`: Contains unit tests for the Fibonacci function.
+- `main.py`: Script to run the unit tests.
 
-- **fibonacci.py**: Contains the `fibonacci` function to calculate the nth Fibonacci number.
+## Getting Started
 
-## Usage
+### Prerequisites
+- Python 3.x
 
-To use the Fibonacci function, simply call the `fibonacci(n)` method with the desired position `n` in the Fibonacci sequence.
-
-### Example:
-
+### Installation
+1. Clone the repository:
+   
